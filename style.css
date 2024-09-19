@@ -1,0 +1,64 @@
+
+.todo-app {
+    width: 50%;
+    margin: 40px auto;
+    text-align: center;
+    background-color: whitesmoke;
+    }
+    
+    
+    #error-message {
+    color:palevioletred;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+    
+    #task-input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    }
+    
+    #add-button {
+    padding: 10px 20px;
+    background-color:aquamarine;
+    color: black;
+    border: none;
+    border-radius: 1px solid black;
+    cursor: pointer;
+    }
+    
+    #task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: whitesmoke;
+    }
+    
+    .task-item {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    }
+    
+    .task-item:last-child {
+    border-bottom: none;
+    }
+    
+    .edit-button, .delete-button {
+    padding: 5px 10px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+    .edit-button {
+    background-color:black;
+    color: #fff;
+    }
+    
+    .delete-button {
+    background-color: rgb(1, 1, 10);
+    color: #fff;
+    }
